@@ -3,7 +3,7 @@
 Converts a Markdown file to HTML.
 
 Usage:
-    ./markdown2html.py <input_file.md> <output_file.html>
+    ./markdown2html.py README.md README.html
 '''
 
 import sys
