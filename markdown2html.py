@@ -6,6 +6,13 @@ Converts a Markdown file to HTML.
 
 Usage:
     ./markdown2html.py <input_file.md> <output_file.html>
+
+Requirements:
+    - If the number of arguments is less than 2: print in STDERR
+      Usage: ./markdown2html.py README.md README.html and exit 1
+    - If the Markdown file doesn’t exist: print in STDERR
+      Missing <filename> and exit 1
+    - Otherwise, print nothing and exit 0
 """
 
 import sys
