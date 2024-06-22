@@ -36,7 +36,6 @@ def convert_markdown_to_html(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as md_file:
         markdown_content = md_file.read()
     
-    # Convert markdown to HTML
     html_content = markdown2.markdown(markdown_content)
     
     # Write HTML content to output file
